@@ -14,6 +14,7 @@ namespace CurrencyTrader.AdoNet
             this.logger = logger;
         }
 
+
         public void Persist(IEnumerable<TradeRecord> trades)
         {
             logger.LogInfo("Connecting to Database");
